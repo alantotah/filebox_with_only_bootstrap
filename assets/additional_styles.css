@@ -1,7 +1,32 @@
 /* Additional styles */
 
 body {
+  background-color: rgb(251, 251, 251);
+  color: rgb(68,68,68);
   font-family: "Open Sans";
+}
+
+.navbar ul li {
+  float:right;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar a {
+  color: blue !important;
+}
+
+h1, h2 {
+  font-weight: 300;
+  line-height: 125%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 175%;
 }
 
 /* My standard vertical spacing classes */
@@ -51,7 +76,7 @@ body {
 }
 
 .margin-above-top-sm {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .margin-above-top-md {
@@ -80,4 +105,9 @@ body {
 
 .margin-below-bottom-xl {
   margin-bottom: 200px;
+}
+
+.row{
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
 }
